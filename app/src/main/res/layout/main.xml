@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="#000000">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="10dp"
+		android:gravity="center">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="paste or type imei"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp">
+
+			<EditText
+				android:layout_width="wrap_content"
+				android:ems="10"
+				android:layout_height="40dp"
+				android:hint="imei"
+				android:gravity="center"
+				android:background="#444444"
+				android:textColor="#00FF00"
+				android:id="@+id/imei"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="40dp"
+				android:text="paste"
+				android:background="#334400"
+				android:id="@+id/pasteBtn"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp">
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="40dp"
+				android:text="GENERATE"
+				android:background="#556600"
+				android:id="@+id/gen"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="use following keys:"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:layout_width="match_parent"
+				android:inputType="none"
+				android:layout_height="100dp"
+				android:ems="10"
+				android:background="#444444"
+				android:textColor="#00FF00"
+				android:hint="input imei and generate keys"
+				android:textSize="20sp"
+				android:gravity="start"
+				android:id="@+id/out"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

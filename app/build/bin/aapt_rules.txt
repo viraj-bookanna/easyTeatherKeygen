@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:19
+-keep class lk.live.easytather.keygen.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class lk.live.easytather.keygen.genActivity { <init>(...); }
+
